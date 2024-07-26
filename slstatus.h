@@ -12,5 +12,8 @@ const char *num_files(const char *path);
 /* ram */
 const char *ram_perc(const char *unused);
 
+/* battery */
+const char *battery_perc(const char *unused);
+
 /* run_command */
 const char *run_command(const char *cmd);

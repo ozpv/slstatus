@@ -6,6 +6,7 @@ include config.mk
 
 REQ = util
 COM =\
+	components/battery\
 	components/datetime\
 	components/netspeeds\
 	components/ram\
