@@ -14,7 +14,7 @@ static const struct arg args[] = {
 
     /* run nmcli to get network device for say ethernet */ 
     { netspeed_rx, "[ %s B/s ]",    "wlp2s0" },
-    { battery_perc,"[  %s%% ]",    "BAT0" },
+    { battery_perc,"[   %s%% ]",    "BAT0" },
     { run_command, "[ %s ]",        "volume" },
     { ram_perc,    "[  %s%% ]",    NULL },
     { datetime,    "  %s",         "%a %b %d %r" },
