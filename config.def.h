@@ -16,6 +16,6 @@ static const struct arg args[] = {
     { netspeed_rx, "[ %s B/s ]",    "wlp2s0" },
     { battery_perc,"[   %s%% ]",    "BAT0" },
     { run_command, "[ %s ]",        "volume" },
-    { ram_perc,    "[  %s%% ]",    NULL },
+    { ram_perc,    "[ 󰍛 %s%% ]",    NULL },
     { datetime,    "  %s",         "%a %b %d %r" },
 };
